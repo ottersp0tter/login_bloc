@@ -8,6 +8,9 @@ class LoginScreen extends StatelessWidget {
         children: [
           emailField(),
           passwordField(),
+          FlatButton(
+            onPressed: () {},
+          ),
         ],
       ),
     );
